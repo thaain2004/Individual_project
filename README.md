@@ -55,5 +55,11 @@ This is to be performed with the same set of data entering both filters
 Different sets of data are used (this is as one set of data obtained by the system is at one angle, so for a better filter and in turn a better gimbal, optimize the filter to track well across a variety of angles) 
 
   
+Script no.5
+-----------------kf1.3.2-----------------  (Arduino)
+This code script uses similar code to the MATLAB script (script no.4), and moves the servos accordingly to counterract the change in angle
+The code uses the servo library, as well as a user-created Kalman filter library that contains the parameters of the filter called "KalmanFilter.h"
+The Kalman filter is as seen in the MATLAB code, and is in the script "KalmanFilter.cpp"
+
 
   
